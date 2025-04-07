@@ -8,7 +8,6 @@ public class Contador {
 		System.out.println("Digite o segundo parâmetro");
 		int parametroDois = terminal.nextInt();
 		
-
 		try { 
 			contar(parametroUm, parametroDois);
 		} catch(ParametrosInvalidosException e){
